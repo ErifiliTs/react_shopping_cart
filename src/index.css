@@ -87,8 +87,8 @@ footer {
 }
 
 .products li {
-  flex: 0 1 20rem;
-  height: 47rem;
+  flex: 0 1 29rem;
+  height: 53rem;
   padding: 1rem;
 }
 
@@ -100,8 +100,8 @@ footer {
 }
 
 .product img {
-  max-width: 37rem;
-  max-height: 37rem;
+  max-width: 43rem;
+  max-height: 43rem;
 }
 
 .product_price {
@@ -144,4 +144,75 @@ footer {
 
 .filter div {
   flex: 1;
+}
+
+.cart {
+  padding: 1rem;
+  margin: 1.4rem;
+  display: flex;
+}
+
+.cart-header {
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 10rem;
+}
+
+.cart-items li {
+  display: flex;
+}
+
+.cart-items li div {
+  padding: 0.5rem;
+}
+
+.cart-items li div:last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.total > div {
+  font-size: 2rem;
+}
+.total > div,
+.total > button {
+  flex: 1;
+}
+
+form {
+  width: 100%;
+}
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
 }
