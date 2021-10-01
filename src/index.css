@@ -89,7 +89,7 @@ footer {
 .products li {
   flex: 0 1 29rem;
   height: 53rem;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 .product {
@@ -149,7 +149,7 @@ footer {
 
 .cart {
   padding: 1rem;
-  margin: 1.4rem;
+  margin: 1.8rem;
   display: flex;
 }
 
