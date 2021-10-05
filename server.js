@@ -1,6 +1,6 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const shortid = require("shortid");
+import express from "express";
+import mongoose from "mongoose";
+import shortid from "shortid";
 
 const app = express();
 app.use(express.json());
